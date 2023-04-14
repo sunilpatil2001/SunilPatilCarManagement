@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indeex.css">
+    <title>Car Managment</title>
+</head>
+<body>
+    <img src="images/car1.png" alt="">
+        <img src="images/car2.png" alt=""> 
+    <div class="main">
+         
+        <div class="split">
+            <div class="createform">
+        <form id="myForm">
+            
+            <h2>Create new car</h2>
+            <p id="myFormMessage"></p>
+            <label for="input1">id:</label>
+            <input type="text" id="input1" name="input1"><br><br>
+
+            <label for="input2">Make:</label>
+            <input type="text" id="input2" name="input2">
+            <br><br>
+            <label for="input3">Color:</label>
+            <input type="text" id="input3" name="input3">
+            <br><br>
+            <label for="input4">Price:</label>
+            <input type="text" id="input4" name="input4">
+
+            <br><br>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        
+        <div class="secondform">
+          <form id="myFormUpdate">
+            <h2>Update car</h2>
+            <p id="myFormMessageUpdate"></p>
+            <label for="input11">id:</label>
+            <input type="text" id="input11" name="input11"><br><br>
+
+            <label for="input22">Make:</label>
+            <input type="text" id="input22" name="input22">
+            <br><br>
+            <label for="input33">Color:</label>
+            <input type="text" id="input33" name="input33">
+            <br><br>
+            <label for="input44">Price:</label>
+            <input type="text" id="input44" name="input44">
+
+            <br><br>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        <div class="deleteform">
+          <form id="deleteform">
+            <h2>Delete car</h2>
+            <label for="d">id:</label>
+            <input type="text" id="d" name="d"><br><br>
+
+            
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        </div>
+
+        <div>
+          <ul id="myList"></ul>
+          <table id="myTable">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>MAKE</th>
+                <th>COLOR</th>
+                <th>PRICE</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+          
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

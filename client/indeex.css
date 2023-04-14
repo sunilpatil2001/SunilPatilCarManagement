@@ -1,0 +1,113 @@
+* {
+    background: rgb(254, 217, 223);  
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+font-size: large;
+    
+}
+form {
+    border: 2px solid grey;
+    width: 700px;
+    border-radius: 10px;
+}
+input {
+    border: 1px solid grey;
+    height: 30px;
+    border-radius: 8px;
+}
+label {
+    margin: 40px;
+}
+h2 {
+    margin: 5px 0 5px 40px;
+}
+input[type=submit] {
+    background-color: #3f50b5;
+    height: 30px;
+    border-radius: 6px;
+    color: white;
+    margin: 10px 0 10px 10px;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 700px !important;
+    padding: 10px;
+    color: #263069;
+
+    
+}
+
+table {
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.48);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7px);
+-webkit-backdrop-filter: blur(7px);
+border: 1px solid rgba(255, 255, 255, 1);
+margin: 40px;
+}
+
+.split {
+    width: 30vw !important;
+}
+
+.createform {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.48);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7px);
+-webkit-backdrop-filter: blur(7px);
+border: 1px solid rgba(255, 255, 255, 1);
+}
+.secondform {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.48);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7px);
+-webkit-backdrop-filter: blur(7px);
+border: 1px solid rgba(255, 255, 255, 1);
+}
+.deleteform {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.48);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7px);
+-webkit-backdrop-filter: blur(7px);
+border: 1px solid rgba(255, 255, 255, 1);
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
